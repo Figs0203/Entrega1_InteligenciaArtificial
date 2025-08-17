@@ -1,5 +1,5 @@
 # Entrega 1 Inteligencia Artificial S2566 Universidad EAFIT
-### Esteban Álvarez Zuluaga, Agustín Figueroa, Alejandro Posada
+### Esteban Álvarez Zuluaga, Agustín Figueroa, Alejandro Sepúlveda
 
 ---
 
@@ -90,6 +90,7 @@ python Agent/agent_search.py
 # Ejecuta el algoritmo genético (en notebook)
 # Abre GA/genetic_agent.ipynb y ejecuta todas las celdas
 ```
+
 
 
 
