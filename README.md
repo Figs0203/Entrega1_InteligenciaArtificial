@@ -5,6 +5,8 @@
 
 Este proyecto implementa agentes de búsqueda (A*, BFS) y un algoritmo genético para encontrar rutas óptimas entre barrios de Medellín, usando grafos y heurísticas. Incluye visualización de rutas y comparación de métodos.
 
+¡Visita la wiki donde encontrarás más información al respecto!
+
 ---
 
 ## Estructura de Carpetas
@@ -88,5 +90,6 @@ python Agent/agent_search.py
 # Ejecuta el algoritmo genético (en notebook)
 # Abre GA/genetic_agent.ipynb y ejecuta todas las celdas
 ```
+
 
 
