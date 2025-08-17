@@ -12,7 +12,7 @@ import time
 from collections import deque
 
 # -----------------------------
-# 1) Definición del grafo (ejemplo)
+# 1) Definición del grafo
 # -----------------------------
 GRAPH = {
     "Robledo":       [("Laureles", 3.0), ("Doce de Octubre", 2.5), ("San Cristóbal", 4.0)],
@@ -185,7 +185,7 @@ def bfs(graph, start, goal, verbose=False):
     }
 
 # -----------------------------
-# 5) Función para mostrar resultados de forma clara y ordenada
+# 5) Función para mostrar resultados
 # -----------------------------
 def print_result(result, algorithm_name="A*"):
     print("\n" + "="*50)
