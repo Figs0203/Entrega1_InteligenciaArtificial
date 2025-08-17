@@ -1,5 +1,6 @@
 import networkx as nx
 import matplotlib.pyplot as plt
+import os
 
 class Graph:
     def __init__(self):
@@ -51,6 +52,8 @@ class Graph:
 
 
         if result_path:
+            if not os.path.exists(os.path.dirname(result_path)):
+                os.makedirs(os.path.dirname(result_path))
             plt.savefig(result_path)
         else:
             plt.show()
