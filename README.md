@@ -13,7 +13,6 @@ Este proyecto implementa agentes de búsqueda (A*, BFS) y un algoritmo genético
 
 - **Agent/**  
   Contiene los agentes de búsqueda:
-  - `agent_search.py`: Script con A* y BFS.
   - `agent_search.ipynb`: Notebook explicativo y ejecutable.
 
 - **GA/**  
@@ -46,10 +45,6 @@ Este proyecto implementa agentes de búsqueda (A*, BFS) y un algoritmo genético
 
 ### 1. Agente de Búsqueda (A*, BFS)
 
-- Ejecuta el script directamente:
-  ```
-  python Agent/agent_search.py
-  ```
 - O abre y ejecuta el notebook `Agent/agent_search.ipynb` en Jupyter/VS Code.
 
 ### 2. Algoritmo Genético
@@ -70,8 +65,8 @@ Instaladas automáticamente con el archivo `requirements.txt`.
 
 ## Descripción de Archivos Principales
 
-- **agent_search.py / agent_search.ipynb**  
-  Implementan y explican los algoritmos A* y BFS para encontrar rutas entre barrios, mostrando resultados y pasos de ejecución.
+- **agent_search.ipynb**  
+  Implementa  los algoritmos A* y BFS para encontrar rutas entre barrios, mostrando resultados y pasos de ejecución.
 
 - **genetic_agent.ipynb**  
   Implementa un algoritmo genético para encontrar el mejor orden de visita entre varios barrios, usando A* para calcular distancias y visualizando el resultado.
@@ -85,11 +80,12 @@ Instaladas automáticamente con el archivo `requirements.txt`.
 
 ```python
 # Ejecuta el agente de búsqueda
-python Agent/agent_search.py
+# Abre Agent/agent_search.ipynb y ejecuta todas las celdas
 
 # Ejecuta el algoritmo genético (en notebook)
 # Abre GA/genetic_agent.ipynb y ejecuta todas las celdas
 ```
+
 
 
 
